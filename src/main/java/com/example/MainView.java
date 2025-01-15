@@ -8,7 +8,7 @@ import com.vaadin.flow.router.Route;
 @Route("")
 public class MainView extends VerticalLayout {
     public MainView() {
-        Label label = new Label("Hello, Vercel Kevin!");
+        Label label = new Label("Hello, Vercel Kevin1!");
         Button button = new Button("Click Me", e -> label.setText("You clicked the button!"));
         add(label, button);
     }
